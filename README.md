@@ -33,6 +33,8 @@ notify("MyApp", "Test Notification", "This is a test message.")
 
 ### CLI Usage
 
+#### local path
+
 You can also use the library as a command-line tool. Run the following command to send a notification:
 
 ```bash
@@ -40,6 +42,26 @@ python3 NotipyDesktop.py MyApp "Test Notification" "This is a test message."
 ```
 
 ---
+
+#### sytem wide
+
+You can make the program system wide executable with:
+
+```bash
+chmod +x /path/to/NotipyDesktop/NotipyDesktop.py
+```
+
+After that you have to add the path to `$PATH`:
+
+```bash
+export PATH=$PATH:/path/to/NotipyDesktop
+```
+
+Then you can run:
+
+```bash
+NotipyDesktop.py MyApp "Test Notification" "This is a test message."
+```
 
 ## Requirements
 

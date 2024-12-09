@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="NotipyDesktop",  # Der Name des Pakets
-    version="2.0.0",  # Versionsnummer
+    version="3.0.0",  # Versionsnummer
     description="A simple Python notification library using libnotify.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
