@@ -1,6 +1,7 @@
 LICENSE
 README.md
 setup.py
+NotipyDesktop/NotipyDesktop.py
 NotipyDesktop/__init__.py
 NotipyDesktop.egg-info/PKG-INFO
 NotipyDesktop.egg-info/SOURCES.txt
