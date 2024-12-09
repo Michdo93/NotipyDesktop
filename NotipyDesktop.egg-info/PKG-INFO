@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: NotipyDesktop
-Version: 3.0.0
+Version: 5.0.0
 Summary: A simple Python notification library using libnotify.
 Home-page: https://github.com/Michdo93/NotipyDesktop
 Author: Michael Christian Dörflinger
@@ -75,7 +75,7 @@ export PATH=$PATH:/path/to/NotipyDesktop
 Then you can run:
 
 ```bash
-NotipyDesktop.py MyApp "Test Notification" "This is a test message."
+NotipyDesktop MyApp "Test Notification" "This is a test message."
 ```
 
 ## Requirements

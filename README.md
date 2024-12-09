@@ -60,7 +60,7 @@ export PATH=$PATH:/path/to/NotipyDesktop
 Then you can run:
 
 ```bash
-NotipyDesktop.py MyApp "Test Notification" "This is a test message."
+NotipyDesktop MyApp "Test Notification" "This is a test message."
 ```
 
 ## Requirements
