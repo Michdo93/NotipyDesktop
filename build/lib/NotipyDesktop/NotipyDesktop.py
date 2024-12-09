@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 import gi
 gi.require_version('Notify', '0.7')  # Version festlegen
